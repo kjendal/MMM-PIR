@@ -3,6 +3,8 @@ MMM-PIR is a module for the [MagicMirror](https://github.com/MichMich/MagicMirro
 
 It uses a PIR sensor attached to your raspberry pi's GPIO pins to check for users. After a configurated time without any user interaction the display will turn off. You can specify additional scripts (sh, python and js are supported) that will run after the timeout.
 
+This fork is from the fork of Manu206, which added "vcgencmd display_power" control over HDMI to the current master of MMM-PIR.  In addition to this, a simple addition to node_helper.js was added to fix the launch problems everyone was having (well at least the one I was having).
+
 ## Screenshot
 <img src="screenshot.png"/>
 
